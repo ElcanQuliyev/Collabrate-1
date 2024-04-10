@@ -68,3 +68,37 @@ div.img {
     width: 100%;
     height: 600px;
 }
+
+div.footer {
+    padding: 64px 16px;
+}
+
+div.icon {
+    text-align: center;
+}
+
+div.firstInputs {
+    display: flex;
+    gap: 16px;
+}
+
+input.Massege {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    div.half {
+        flex-direction: column;
+    }
+
+    div.firstInputs {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    #Contact {
+        width: 100%;
+    }
+}
