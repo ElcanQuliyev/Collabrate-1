@@ -1,0 +1,33 @@
+section.theband{
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin:auto;
+}
+section.theband h1{
+    font-weight: 400;
+    font-size: 30px;
+}
+section.theband p.italic {
+    color: darkgray;
+    font-style: italic;
+    
+}
+section.theband p.paragraph{
+    padding: 0px 64px;
+    margin: auto;
+    text-align: justify;
+    box-sizing: inherit;
+    display: block;
+
+}
+section.theband div.images{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    margin: auto;
+}
